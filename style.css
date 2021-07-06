@@ -1,10 +1,12 @@
 body{
-    margin: 0%;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
 .header-flex{
     display: flex;
-    margin-top: 70px;
+   
+   
     
 }
 .header-item{
@@ -30,4 +32,59 @@ body{
 .blue-color{
     color: #13B7FB;
     
+}
+.about-section{
+    background-image: url(images/bg-about.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #EBF8FE;
+   
+   
+}
+.about-box{
+    padding: 5%;
+}
+.item-center{
+    text-align: center;
+    
+}
+.box-center{
+    padding: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    
+}
+.food-item{
+    margin: 2%;
+    width: 40%;
+   
+    box-shadow: 10px 1px 40px grey;
+    border-radius: 15px;
+}
+.food-item img{
+    border-radius: 25px;
+    padding-top: 12px;
+    
+   
+}
+.box-follower{
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   
+    box-shadow: 1px 1px 4px  grey;
+    border-radius: 15px;
+    
+}
+.view-followr{
+    margin: 5%;
+    text-align: center;
+    padding-left: 10%;
+   
+
+}
+.view-followr h1{
+    font-size: 30px;
+    font-weight: 800;
 }
