@@ -2,13 +2,17 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-
+p{
+    font-family: 'Roboto', sans-serif;
+}
 .header-flex{
     display: flex;
+    margin-bottom: 110px;
    
    
     
 }
+
 .header-item{
     width: 100%;
     padding-left: 4%;
@@ -32,6 +36,9 @@ body{
 .blue-color{
     color: #13B7FB;
     
+}
+.gray-color{
+    color: #292c3b;
 }
 .about-section{
     background-image: url(images/bg-about.PNG);
@@ -57,16 +64,23 @@ body{
 .food-item{
     margin: 2%;
     width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
    
     box-shadow: 10px 1px 40px grey;
     border-radius: 15px;
+    
 }
 .food-item img{
     border-radius: 25px;
     padding-top: 12px;
     
    
+} 
+.food-item p{
+    padding-right: 12%;
 }
+
 .box-follower{
    margin-left: 3%;
    margin-right: 3%;
@@ -87,4 +101,11 @@ body{
 .view-followr h1{
     font-size: 30px;
     font-weight: 800;
+}
+.footer{
+    padding: 3%;
+    background-color: #0A0D16;
+    text-align: center;
+    color: white;
+   
 }
